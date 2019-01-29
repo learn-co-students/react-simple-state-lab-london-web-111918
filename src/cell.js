@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class Cell extends Component {
+export default class Cell extends Component {
 
   constructor(props) {
     super(props)
@@ -30,6 +30,3 @@ class Cell extends Component {
   }
 
 }
-
-
-export default Cell
